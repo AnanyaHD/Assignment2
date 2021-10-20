@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends Initialization{
+public class LoginPage extends Base{
 	 By username=By.name("username");
 	 By Password=By.name("password");
 	 By submit=By.id("loginbtn");
